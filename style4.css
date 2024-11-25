@@ -1,0 +1,94 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.header {
+    text-align: center;
+    background: #004d40;
+    padding: 20px;
+    color: #fff;
+}
+
+.navbar {
+    background: #00695c;
+    padding: 15px;
+}
+
+.navbar ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Wool Price Section */
+.price-section {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.summary-card {
+    background-color: #e0f2f1;
+    padding: 200px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.price-section h2, .price-section h3 {
+    color: #004d40;
+}
+
+.price-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.price-table th, .price-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.price-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.price-table tr:hover {
+    background-color: #e0f2f1;
+}
+
+.price-table th {
+    background-color: #004d40;
+    color: white;
+}
+
+.recent-prices {
+    margin-top: 20px;
+}

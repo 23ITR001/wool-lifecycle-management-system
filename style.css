@@ -1,0 +1,84 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dddce4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Login Section Styling */
+#login {
+    background-color: #fff;
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+#login h2 {
+    font-size: 28px;
+    color: #4a4e69;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #4a4e69;
+    padding-bottom: 10px;
+}
+
+#login label {
+    font-size: 16px;
+    color: #555;
+    display: block;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+#login input[type="email"],
+#login input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+#login button {
+    background-color: #4a4e69;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+#login button:hover {
+    background-color: #373a5e;
+}
+
+/* Success and Error Message Styling */
+.success {
+    color: #4CAF50;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.error {
+    color: #f44336;
+    margin-top: 20px;
+    font-size: 16px;
+}
